@@ -7,10 +7,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "start": "nodemon main.js",
     "heroku-postbuild": "cd client && npm install && npm run build",
-    "server": "nodemon main.js",
-    "client": "npm run start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "client": "npm run start --prefix client"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
