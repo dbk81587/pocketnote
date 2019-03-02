@@ -22,10 +22,10 @@ app.use(session({
 
 
 
-app.use('/', express.static(path.join(__dirname, 'client/build')));
+app.use(express.static(path.join(__dirname, 'client/build')));
 app.use('/api', api);
 
-app.get('/*', (req, res) => {
+app.get('*', (req, res) => {
     res.sendFile(path.resolve(__dirname, 'client/build/index.html'));
 });
 
