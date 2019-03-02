@@ -6,7 +6,7 @@ const session = require('express-session');
 const api = require('./routes');
 
 const app = express();
-const port = process.env.PORT || 8283;
+const port = process.env.PORT || 5001;
 
 app.use(morgan('dev'));
 app.use(bodyParser.urlencoded({ extended: true }) );
