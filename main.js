@@ -29,7 +29,6 @@ app.get('*', (req, res) => {
     res.sendFile(path.resolve(__dirname, './client/build/index.html'));
 });
 
-
 app.use(function(err, req, res, next) {
     console.error(err.stack);
     res.status(500).send('Something broke!');

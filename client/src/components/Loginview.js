@@ -13,6 +13,9 @@ const Loginview = ({ onLogin }) => {
             return
         }
     }
+    let loginRequest = () => {
+        onLogin(usernameinput.value.toLowerCase(), passwordinput.value.toLowerCase())
+    }
     return (
         <div className="container">
             <div className="center">
@@ -28,7 +31,7 @@ const Loginview = ({ onLogin }) => {
                         <input type="password" onKeyPress={onKeyPress} ref={node => passwordinput = node} name="password" className="validate" id="password" />
                         <label for="password">Password</label>
                     </div>
-                    <button type='submit' className="waves-effect waves-light btn" onClick={() => onLogin(usernameinput.value.toLowerCase, passwordinput.value.toLowerCase)}>Login</button>
+                    <button type='submit' className="waves-effect waves-light btn" onClick={loginRequest}>Login</button>
                 </div>
                 <Link to="/signup">Create an account</Link>
             </div>

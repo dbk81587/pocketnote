@@ -20,14 +20,11 @@
 
 .modalForm {
     padding: 20px 5px;
-}
-
-.modal {
-    max-height: 40% !important;
+    height: 270px;
 }
 
 .textArea {
-    max-height: 130px;
+    max-height: 60px;
     overflow: auto !important;
 }
 
