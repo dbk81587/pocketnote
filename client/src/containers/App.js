@@ -18,13 +18,13 @@ class App extends Component {
     if(typeof loginData === "undefined") return;
 
     loginData = JSON.parse(atob(loginData));
-    console.log(loginData)
 
-    if(!loginData.isLoggedIn) return;
+    if(!loginData.isLoggedIn) {
+      history.push('/login')
+    }
 
     this.props.getStatusRequest().then(
         () => {
-            console.log(this.props.status);
             if(!this.props.status.get('valid')) {
                 // logout the session
                 loginData = {
@@ -34,7 +34,6 @@ class App extends Component {
 
                 document.cookie='key=' + btoa(JSON.stringify(loginData));
                 history.push('/login')
-
             }
         }
     );
