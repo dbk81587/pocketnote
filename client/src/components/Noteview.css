@@ -1,0 +1,22 @@
+.singleCard {
+    width: 300px;
+    height: 250px;
+    margin: 20px auto;
+}
+
+.noteMain {
+    height: 175px;
+    width: 252px;
+    overflow: auto;
+    white-space: pre-wrap;
+    word-break: break-all;
+}
+
+.vert {
+    cursor: pointer;
+}
+
+.noteList {
+    display: flex;
+    flex-wrap: wrap;
+}

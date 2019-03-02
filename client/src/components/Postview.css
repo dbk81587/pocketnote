@@ -1,0 +1,37 @@
+.postBtn {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.titleInput {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.noteInput {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.clearBtn {
+    cursor: pointer;
+    color: gray;
+}
+
+.modalForm {
+    padding: 20px 5px;
+}
+
+.modal {
+    max-height: 40% !important;
+}
+
+.textArea {
+    max-height: 130px;
+    overflow: auto !important;
+}
+
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}

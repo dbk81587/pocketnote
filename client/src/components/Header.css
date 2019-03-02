@@ -1,0 +1,8 @@
+.loginBtn::before {
+    color: #42a5f5;
+}
+
+.logoutBtn::before {
+    color: #f4511e;
+}
+

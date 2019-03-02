@@ -1,0 +1,15 @@
+.loginForm {
+  width: 400px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.loginForm .btn {
+  width: 40%;
+}
+
+@media screen and (max-width: 480px) {
+  .loginForm {
+    width: 100%;
+  }
+}
