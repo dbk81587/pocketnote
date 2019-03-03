@@ -4,6 +4,18 @@
     margin: 20px auto;
 }
 
+@media screen and (max-width: 340px) {
+    .singleCard {
+        width: 280px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .loginForm {
+      width: 100%;
+    }
+  }
+
 .noteMain {
     height: 175px;
     width: 252px;

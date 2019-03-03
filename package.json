@@ -7,8 +7,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "node main.js",
-    "heroku-postbuild": "cd client && npm install && npm run build"
+    "heroku-postbuild": "cd client && npm install && npm run build",
+    "start": "node main.js"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",

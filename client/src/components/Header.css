@@ -6,3 +6,8 @@
     color: #f4511e;
 }
 
+@media screen and (max-width: 390px) {
+    .brand {
+        font-size: 23px !important;
+    }
+}

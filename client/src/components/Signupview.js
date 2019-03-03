@@ -20,7 +20,7 @@ const Signupview = ({ onSignup }) => {
                 </div>
                 <div className="loginForm center">
                     <div className="input-field">
-                        <input type="text" autoComplete="off" ref={node => usernameinput = node} name="username" className="validate" id="username" />
+                        <input type="text" autoComplete="off" maxLength="16" ref={node => usernameinput = node} name="username" className="validate" id="username" />
                         <label for="username">Username</label>
                     </div>
                     <div className="input-field">

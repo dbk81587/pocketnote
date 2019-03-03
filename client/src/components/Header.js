@@ -17,7 +17,7 @@ const Header = ({ isLoggedIn, onLogout, username }) => {
     return (
         <nav>
             <div className="nav-wrapper blue-grey darken-3">
-                <div className="brand-logo center">{ isLoggedIn ? username : 'POCKET NOTE'}</div>
+                <div className="brand-logo center brand">{ isLoggedIn ? username : 'POCKET NOTE'}</div>
                 <ul className="right">
                     <li>
                         { isLoggedIn ? logoutBtn : loginBtn }
