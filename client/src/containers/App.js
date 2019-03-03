@@ -15,7 +15,9 @@ class App extends Component {
 
     let loginData = getCookie('key');
 
-    if(typeof loginData === "undefined") return;
+    if(typeof loginData === "undefined") {
+      history.push('/login')
+    }
 
     loginData = JSON.parse(atob(loginData));
 
