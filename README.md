@@ -4,6 +4,8 @@ A personal simple memo app that allows user to create, edit, delete.
 
 Go **[here](pocketnote.herokuapp.com)** for live demo.
 
+... | ...
+--- | ---
 ![pocketnote1](https://user-images.githubusercontent.com/40073162/56672075-c26a3500-6683-11e9-8f85-12651e19adfa.png) | ![pocketnote2](https://user-images.githubusercontent.com/40073162/56672205-fe04ff00-6683-11e9-967b-e169f9a43e26.png)
 
 ---
