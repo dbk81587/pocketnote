@@ -6,7 +6,7 @@ Go **[here](pocketnote.herokuapp.com)** for live demo.
 
 ... | ...
 --- | ---
-![pocketnote1](https://user-images.githubusercontent.com/40073162/56672075-c26a3500-6683-11e9-8f85-12651e19adfa.png) | ![pocketnote2](https://user-images.githubusercontent.com/40073162/56672205-fe04ff00-6683-11e9-967b-e169f9a43e26.png)
+![pocketnote1](https://user-images.githubusercontent.com/40073162/56672075-c26a3500-6683-11e9-8f85-12651e19adfa.png) | ![pocketnote2](https://user-images.githubusercontent.com/40073162/56673563-7b317380-6686-11e9-8325-22700ad2e5cd.png)
 
 ---
 
