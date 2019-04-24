@@ -1,6 +1,6 @@
 # Pocketnote
 
-A personal simple memo app that allows user to create, edit, delete.
+A personal simple memo app that allows user to signup, login, create, edit, delete.
 
 Go **[here](https://pocketnote.herokuapp.com)** for live demo.
 
@@ -15,7 +15,7 @@ Go **[here](https://pocketnote.herokuapp.com)** for live demo.
 * [Node.js](https://nodejs.org/en/) - Javascript runtime
 * [React](https://reactjs.org/) - A javascript library for building user interfaces
 * [Redux](https://redux.js.org/) - A Predictable State Container for JS Apps
-* [ClearDB](https://w2.cleardb.net/) - The Ultra Reliable, Geo Distributed Data Services Platform
+* [ClearDB(MySQL)](https://w2.cleardb.net/) - The Ultra Reliable, Geo Distributed Data Services Platform
 * [Material CSS](https://materializecss.com/) - A modern responsive CSS framework based on Material Design by Google.
 
 ---
