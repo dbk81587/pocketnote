@@ -28,4 +28,4 @@ Go **[here](pocketnote.herokuapp.com)** for live demo.
 
 ## Authors
 
-* **Dongbi Kim** - [Dongbi Kim](https://github.com/dbk81587)
+* [Dongbi Kim](https://github.com/dbk81587)
