@@ -2,7 +2,7 @@
 
 A personal simple memo app that allows user to signup, login, create, edit, delete.
 
-Go **[here](https://pocketnote.herokuapp.com){:target="_blank"}** for live demo.
+Go **[here](https://pocketnote.herokuapp.com)** for live demo.
 
 ... | ...
 --- | ---
