@@ -14,7 +14,7 @@
     "react-scripts": "2.1.5",
     "redux": "^4.0.1",
     "redux-thunk": "^2.3.0",
-    "sequelize": "^4.42.1"
+    "sequelize": "^5.15.1"
   },
   "scripts": {
     "start": "react-scripts start",
